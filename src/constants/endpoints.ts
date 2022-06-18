@@ -10,7 +10,7 @@ const INFURA_KEY = process.env.REACT_APP_INFURA_KEY
 export const networkToProvider: { [key in SupportedNetworks]: string } = {
   [SupportedNetworks.Mainnet]: `https://mainnet.infura.io/v3/${INFURA_KEY}`,
   [SupportedNetworks.Kovan]: `https://kovan.infura.io/v3/${INFURA_KEY}`,
-  [SupportedNetworks.Ropsten]: `https://ropsten.infura.io/v3/${INFURA_KEY}`,
+  [SupportedNetworks.Ropsten]: `https://ropsten.infura.io/v3/b94cd6cdb99e41b9a8784c675060afc1`,
   [SupportedNetworks.Avalanche]: 'https://api.avax.network/ext/bc/C/rpc',
   [SupportedNetworks.Arbitrum]: 'https://arb1.arbitrum.io/rpc',
   [SupportedNetworks.Matic]: 'https://rpc-mainnet.maticvigil.com/',
